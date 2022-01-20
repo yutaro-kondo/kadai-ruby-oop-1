@@ -22,14 +22,14 @@ class Team
 # 成績表示メソッドを定義
  def show_team_result
   
-  puts "#{@name} の2020年の成績は #{@win}勝 #{@lose}敗 #{@draw}分、勝率は#{calc_win_rate
+  "#{@name} の2020年の成績は #{@win}勝 #{@lose}敗 #{@draw}分、勝率は#{calc_win_rate
   }です。"
   
  end
  
 end
 
-# インスタンスの生成と引数記入
+# インスタンスの生成と引数代入
 Giants = Team.new("Giants", 67, 45, 8)
 Tigers = Team.new("Tigers", 60, 53, 7)
 Dragons = Team.new("Dragons", 60, 55, 5)
